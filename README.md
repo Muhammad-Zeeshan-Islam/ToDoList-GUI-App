@@ -11,7 +11,7 @@ A simple yet effective desktop To-Do List application built with C++ and the wxW
 * **Delete Tasks:** Remove tasks you no longer need using the `Delete` key.
 * **Reorder Tasks:** Move tasks up or down in the list using the `Up` and `Down` arrow keys.
 * **Clear All:** A "Clear" button to remove all tasks at once, with a confirmation prompt.
-* **Persistent Storage:** Your tasks are automatically saved to `Tasks.txt` when you close the application and reloaded the next time you open it.
+* **Persistent Storage:** Your tasks are automatically saved to `Tasks.txt` when you close the application and reload the next time you open it.
 
 ## 🛠️ Technologies Used
 
@@ -45,5 +45,14 @@ The project is organized into the following files:
 * `MainFrame.h` & `MainFrame.cpp`: Defines and implements the main window of the application. It handles the UI layout, event handling (button clicks, key presses), and the core application logic.
 * `Task.h` & `Task.cpp`: Defines the `Task` struct, which represents a single to-do item. It also contains the functions for saving tasks to and loading tasks from the `Tasks.txt` file.
 * `Tasks.txt`: A plain text file where the application stores your tasks.
+
+https://youtu.be/ONYW3hBbk-8?list=PLFk1_lkqT8MbVOcwEppCPfjGOGhLvcf9G Watch this video for downloading the libraries of wxWidgets
+
+https://youtu.be/urIpZnCTeKw?si=14l_-hOnIBcrKiPf Watch this video for faster project setup on Visual Studio
+
+https://youtu.be/MPLfOoRUKMU?si=KZCCsXYSdGqQeoFr Watch this YouTube video for using the GUI text file in Visual Studio Community version
+
+
+
 
 
